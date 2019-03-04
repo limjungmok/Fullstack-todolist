@@ -1,0 +1,10 @@
+@charset 'utf-8';
+
+@import './common/variables';
+@import './common/base';
+@import './common/mixin';
+
+
+body {
+  background-color: orange;
+}
