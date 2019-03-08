@@ -1,0 +1,18 @@
+.base {
+  & {}
+  .todo {
+    & {
+      padding: 18px 0;
+    }
+    & + .todo {
+      border-top: 1px solid #efefef;
+    }
+  }
+  .title {
+    font-size: 20px;
+  }
+  .text {
+    display: block;
+    color: #222;
+  }
+}

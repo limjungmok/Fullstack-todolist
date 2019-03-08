@@ -1,7 +1,10 @@
-.header {
+.base {
   background-color: #00c73c;
 }
 
-:global(.show) {
-  font-size: 30px;
+.title {
+  font-size: 18px;
+  line-height: 40px;
+  color: #fff;
+  text-align: center;
 }
